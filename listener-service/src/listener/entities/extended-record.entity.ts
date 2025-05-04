@@ -21,6 +21,7 @@ export class ExtendedRecord extends Document {
   @Prop({ required: true })
   inserted_at: Date;
 
+  
   @Prop({ required: true })
   modified_at: Date;
 }
