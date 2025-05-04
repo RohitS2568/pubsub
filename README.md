@@ -7,6 +7,7 @@ You can run everything using a single Docker command or set it up manually step-
 
 🐳 Run with Docker Compose (Recommended) --- You can run everything using a single Docker command
 To spin up all services (Node.js app, MongoDB, Redis) in one command:
+
 docker compose up
 
 
