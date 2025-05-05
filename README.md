@@ -11,6 +11,19 @@ To spin up all services (Node.js app, MongoDB, Redis) in one command:
 docker compose up
 
 
+Postman:
+POST API
+http://localhost:3000/receiver
+payload:
+{
+
+          "user": "Harry",
+          "class": "Comics",
+          "age": 22,
+          "email": "harry@potter.com"
+}
+
+
 🐳 Run with Docker Compose
 docker compose up --build
 
